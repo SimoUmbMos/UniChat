@@ -1,0 +1,123 @@
+{
+  "project_info": {
+    "project_number": "1056093434446",
+    "firebase_url": "https://unichat-ab241.firebaseio.com",
+    "project_id": "unichat-ab241",
+    "storage_bucket": "unichat-ab241.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056093434446:android:71f8a99d66500d7c",
+        "android_client_info": {
+          "package_name": "com.sorar.unichat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1056093434446-m1baqgfgecttrhsr11uism541jg3dp46.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sorar.unichat",
+            "certificate_hash": "f08d27c5d69b8e31a34ecfb74e807f67ea141273"
+          }
+        },
+        {
+          "client_id": "1056093434446-2dvh0scemgdan4e1ao25p3vspdit8f5h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sorar.unichat",
+            "certificate_hash": "322420710a670c1b48e8c89cdf23d276a2fc092c"
+          }
+        },
+        {
+          "client_id": "1056093434446-fne5kvnej2meo55h2da5kjvfh95sakbf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYdp_9xH15Q5valvTHcphDjN5XkaN8Hlw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1056093434446-fne5kvnej2meo55h2da5kjvfh95sakbf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056093434446:android:93b981ccd4cffeb4",
+        "android_client_info": {
+          "package_name": "com.sorar.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1056093434446-cm6cmpv60us0esbnvj4er07fo6545uaq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sorar.myapplication",
+            "certificate_hash": "5685efc4455a142b02e234bac85e98597153103a"
+          }
+        },
+        {
+          "client_id": "1056093434446-h18tev2stmcsueeeghan2afra4aosgsq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sorar.myapplication",
+            "certificate_hash": "f08d27c5d69b8e31a34ecfb74e807f67ea141273"
+          }
+        },
+        {
+          "client_id": "1056093434446-i3c4jpaki2s3lhon62b5q9h3uduhm35r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sorar.myapplication",
+            "certificate_hash": "322420710a670c1b48e8c89cdf23d276a2fc092c"
+          }
+        },
+        {
+          "client_id": "1056093434446-fne5kvnej2meo55h2da5kjvfh95sakbf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYdp_9xH15Q5valvTHcphDjN5XkaN8Hlw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1056093434446-fne5kvnej2meo55h2da5kjvfh95sakbf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

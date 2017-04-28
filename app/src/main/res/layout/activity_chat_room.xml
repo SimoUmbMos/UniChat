@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_chat_room"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.sorar.myapplication.activity.ChatRoomActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_chat_room_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/fab_add_chatroom"
+        android:background="?attr/colorButtonNormal"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:scrollbars="vertical"
+        android:layout_alignParentLeft="true">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_add_chatroom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:clickable="true"
+        android:visibility="visible"
+        app:backgroundTint="@color/colorPrimary"
+        app:srcCompat="@mipmap/ic_add"
+        android:layout_alignParentRight="true" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:visibility="visible"
+        app:backgroundTint="@color/colorPrimary"
+        app:srcCompat="@mipmap/ic_logout"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/fab_add_chatroom"
+        android:layout_toLeftOf="@+id/fab_add_chatroom" />
+
+    <TextView
+        android:id="@+id/tv_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:gravity="center_vertical"
+        android:text="@string/kati"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/fab_logout"
+        android:layout_alignBottom="@+id/fab_logout"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/fab_logout" />
+
+</RelativeLayout>
